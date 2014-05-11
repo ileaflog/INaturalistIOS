@@ -5,7 +5,7 @@ INaturalistIOS is the official iOS app for submitting data to [iNaturalist.org](
 
 Setup
 -----
-We're using a number of submodules so there's a little more than cloning:
+We're using a number of submodules so there's a little more to do than cloning:
 
     git clone git@github.com:inaturalist/INaturalistIOS.git
     cd INaturalistIOS/
