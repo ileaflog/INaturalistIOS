@@ -1613,6 +1613,11 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = iNaturalist;
+				TargetAttributes = {
+					1927513214E9CCC9000ABAC4 = {
+						DevelopmentTeam = 73NAYLPH9Y;
+					};
+				};
 			};
 			buildConfigurationList = 1927512D14E9CCC8000ABAC4 /* Build configuration list for PBXProject "iNaturalist" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2179,6 +2184,7 @@
 		1927515214E9CCC9000ABAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/Facebook/build\"",
@@ -2218,7 +2224,7 @@
 		1927515314E9CCC9000ABAC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
